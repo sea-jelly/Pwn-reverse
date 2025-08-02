@@ -8,7 +8,7 @@ Radare2로 분석해보면 main 함수가 굉장히 길게 나온다. 하지만 
 
 시작 부분이다. Rdi가 var_28, rsi가 var_30에 입력된다. 그리고 var_28의 값과 var_ch의 값을 서로 더한 다음 가장 아래 값이 A와 B 중 어느 것인가에 따라 분기가 생긴다. 여기서 var_ch가 index라고 유추할 수 있다.
 먼저 A를 보겠다.
-![Pwn-reverse/dungeon/image/image1.png](image1.png)
+![image1.png](Pwn-reverse/dungeon/image/image1.png)
 
 먼저 var_10을 1로 바꾸고 var_8에 1을 더한다. Var_14를 0과 비교한 후 같다면 0x1487로 분기한다.
 
